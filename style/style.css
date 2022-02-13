@@ -1,0 +1,122 @@
+@font-face {
+  font-family: titulo; /* nombre que yo quiera */
+  src: url("../fonts/RaceSport-nR1j0.ttf");
+}
+
+/*Estilo navbar*/
+.nav-item {
+  font-family: titulo;
+}
+
+/*Estilo Hero section*/
+#Hero {
+  background-image: url("../images/ducati_998_1.jpg");
+  background-size: cover;
+  background-position: 99%;
+  /*height: 95vh;*/
+  position: relative;
+}
+
+#Hero h1 {
+  color: antiquewhite;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-family: titulo; /* fuente de letra tipo runas */
+  font-size: 2.5em;
+  letter-spacing: 0.1em;
+  text-shadow: 2px 2px 1px #e0070b;
+}
+
+/* Estilo History section*/
+#History h3 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#History h2 {
+  width: auto;
+  position: relative;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: titulo;
+  color: #e0070b;
+  text-shadow: 2px 2px 1px whitesmoke;
+  margin: auto;
+  padding: 10px;
+  background-color: #212529;
+}
+
+#History p {
+  font-size: 1.3em;
+}
+/*ESTILO GALERIA*/
+#Gallery h2 {
+  width: auto;
+  position: relative;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: titulo;
+  color: #e0070b;
+  text-shadow: 2px 2px 1px whitesmoke;
+  margin: auto;
+  padding: 10px;
+  background-color: #212529;
+}
+
+/*ESTILO ACORDEON*/
+#Evolution img {
+  margin: auto;
+  padding: auto;
+  position: relative;
+}
+
+#Evolution button {
+  font-weight: bold;
+  font-family: titulo;
+}
+
+.titulo {
+  width: auto;
+  position: relative;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: titulo;
+  color: #e0070b;
+  text-shadow: 2px 2px 1px whitesmoke;
+  margin: auto;
+  padding: 10px;
+  background-color: #212529;
+  /*background-color: #e0070b;*/
+}
+
+/*#Competition {
+  background-image: url("../images/banderaCuadros.jpg");
+  background-size: cover;
+  position: relative;
+}*/
+
+#Competition2 {
+  background-image: url("../images/banderaCuadros.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+#Competition .titulo {
+  width: auto;
+  position: relative;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: titulo;
+  color: #e0070b;
+  text-shadow: 2px 2px 1px whitesmoke;
+  margin: auto;
+  padding: 10px;
+  background-color: #ffffff00;
+}
+
+#tituloJumbo {
+  font-family: titulo;
+  font-size: 1em;
+  color: #e0070b;
+}
